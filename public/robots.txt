@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /story-template/
+Sitemap: https://the-blessing-voices.sawzawlin.chatgpt.site/sitemap.xml

@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';
+const origin='http://127.0.0.1:5173';const sign=await fetch(origin+'/signin-with-chatgpt?return_to=/admin',{redirect:'manual'});const cookie=sign.headers.get('set-cookie')?.split(';')[0];assert.ok(cookie,'Local development sign-in cookie');
+async function req(path,options={},auth=true){return fetch(origin+path,{...options,headers:{...(auth?{cookie}:{}),...(options.method?{Origin:origin}:{}),...options.headers}});}
+assert.equal((await req('/api/admin/stories',{},false)).status,403);assert.equal((await req('/api/admin/uploads',{},false)).status,403);
+assert.equal((await req('/api/admin/stories',{method:'POST',headers:{Origin:'https://untrusted.example','Content-Type':'application/json'},body:'{}'})).status,403);
+const file=new FormData();file.append('file',new File(['%PDF-1.4\n% Local integration test only\n%%EOF'], 'local-test.pdf',{type:'application/pdf'}));const upload=await req('/api/admin/uploads',{method:'POST',body:file});assert.equal(upload.status,201,await upload.clone().text());const asset=await upload.json();
+assert.equal((await req('/api/files/'+asset.key,{},false)).status,404);
+let input={title:'Local verification entry — remove after test',collection:'miracles',scripture:'Test reference only',summary:'Local software verification only.',sections:{story:'Local software verification only.'},status:'draft',pdfKey:asset.key};
+const create=await req('/api/admin/stories',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(input)});assert.equal(create.status,201,await create.clone().text());const story=await create.json();fs.mkdirSync('.sites-runtime',{recursive:true});fs.writeFileSync('.sites-runtime/test-record.json',JSON.stringify({story:story.id,file:asset.key}));
+assert.ok(!(await (await req('/api/stories',{},false)).json()).some(x=>x.id===story.id));
+const publish=await req('/api/admin/stories/'+story.id,{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify({...input,status:'published'})});assert.equal(publish.status,200,await publish.clone().text());
+assert.ok((await (await req('/api/stories',{},false)).json()).some(x=>x.id===story.id));const download=await req('/api/files/'+asset.key,{},false);assert.equal(download.status,200);assert.match(download.headers.get('content-disposition'),/attachment/);assert.match(await download.text(),/%PDF/);
+const range=await req('/api/files/'+asset.key,{headers:{Range:'bytes=0-4'}},false);assert.equal(range.status,206);assert.equal(await range.text(),'%PDF-');
+const unpublish=await req('/api/admin/stories/'+story.id,{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(input)});assert.equal(unpublish.status,200);assert.equal((await req('/api/files/'+asset.key,{},false)).status,404);
+const bogus=new FormData();bogus.append('file',new File(['bad pdf'], 'bad.pdf',{type:'application/pdf'}));assert.equal((await req('/api/admin/uploads',{method:'POST',body:bogus})).status,400);
+console.log('Passed: owner-only API access, cross-origin rejection, PDF upload, draft persistence, draft-file privacy, publication, real download, byte ranges, unpublishing, and invalid-file rejection. Local test entry is a private draft.');
