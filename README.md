@@ -1,36 +1,67 @@
-# Moving The Blessing Voices to GitHub
+# The Blessing Voices — Cloudflare setup
 
-This repository contains the full website and private content dashboard. Moving the source to GitHub does not publish the website or provision the database and file storage.
+This version runs independently of ChatGPT Sites. It uses Cloudflare Workers for the website, D1 for story records, R2 for files, and its own private administrator sign-in. No ChatGPT account is required for visitors or administrators.
 
-## Included
+## 1. Update GitHub first
 
-- Homepage, four Bible story collection pages, booklet library, About, and Contact.
-- A private dashboard at `/admin` for story drafts, images, PDFs, videos, and YouTube links.
-- Database schema and generated SQL migration under `db/` and `drizzle/`.
-- Server-side file access checks and published-story reader pages.
-- Unit and local HTTP integration checks under `tests/`.
+Open the supplied **Cloudflare-Update** folder. Upload everything inside it to the root of `zawlinhtet12/the-blessing-voices`, keeping the folders intact. Include the `app` folder even though one already exists. GitHub will merge its contents and replace matching files. Commit the changes.
 
-## Current hosting dependencies
+The update contains fewer than 100 files. It also restores the homepage route that was missing from the manual GitHub uploads. Do not upload local dependencies, `.dev.vars`, or any password file.
 
-This is the working source prepared for ChatGPT Sites. It uses Vinext on Cloudflare Workers, D1 for records, and R2 for files. Its administrator sign-in currently trusts identity supplied by the Sites hosting platform.
+## 2. Connect Cloudflare to GitHub
 
-Before deployment outside Sites:
+1. Sign in at https://dash.cloudflare.com/ and open **Workers & Pages**.
+2. Create a new Worker/application and select the option to import a Git repository.
+3. Authorize Cloudflare to access your GitHub repository, then select **the-blessing-voices**.
+4. Use the following settings:
 
-1. Replace dispatch-owned ChatGPT sign-in and identity-header trust with authentication supplied and verified by the new host. Never trust user-supplied authentication headers on an unprotected public Worker.
-2. Configure the administrator allowlist for the new identity provider. Set the server-only `ADMIN_EMAIL` hosting variable to your verified administrator email. The owner check in `lib/server.ts` denies hosted editor access when this setting is missing. Never put it in browser code.
-3. Provision and bind the database and object storage; apply the generated SQL migration once.
-4. Replace the Sites project manifest and deployment integration with the destination host's configuration while retaining the Vinext build integration required by the chosen runtime.
-5. Update the site's canonical origin and sitemap to the new website address.
-6. Verify owner-only editing, draft-file privacy, real uploads, downloads, and published collection lists on the destination host.
+| Setting | Value |
+| --- | --- |
+| Worker/project name | `the-blessing-voices` |
+| Production branch | `main` |
+| Root directory | Repository root; leave the default |
+| Build command | `npm run build` |
+| Deploy command | `npm run deploy` |
+| Build variable | `NODE_VERSION` = `24` |
 
-GitHub Pages is a static hosting service. It cannot run this dashboard's server routes and storage. It can host an exported static version of the public website, but a separate backend would still be needed for uploads and publishing.
+Use a **Worker with a Git connection**, rather than a static-only Pages deployment.
 
-## Development
+The supplied deployment command is designed to create the declared storage bindings if needed, apply the database migrations, and publish the built Worker. R2 must be enabled on the Cloudflare account. Complete any account setup prompts directly in Cloudflare.
 
-Use Node.js 22.13 or newer and npm. Run `npm ci`, then `npx tsc --noEmit` and `node --experimental-strip-types --test tests/content.test.ts` for the checks used during development. Build with `npm run build`. The included Sites starter README, preserved as `SITES-STARTER.md`, explains local D1 migrations and local development sign-in.
+If deployment reports a permissions error for D1, the build’s Cloudflare API token needs the account’s **D1 Edit** permission in addition to the normal Workers and R2 permissions. Change that permission in Cloudflare; never put an API token in GitHub or this chat.
 
-The loopback development sign-in is for local testing only and is excluded from production. It is not a replacement for hosted administrator authentication.
+## 3. Configure the private dashboard
 
-## Files intentionally excluded
+After the first deployment, open the Worker’s **Settings → Variables & Secrets**. Add these as **runtime secrets**, not build variables:
 
-Dependencies, local databases, uploaded test files, build output, credentials, environment files, and tool state are excluded by `.gitignore`. Do not commit access tokens or secret values. No finalized story list, PDF collection, or contact details have been invented.
+| Secret name | What you enter |
+| --- | --- |
+| `ADMIN_EMAIL` | Your administrator email address |
+| `ADMIN_PASSWORD` | A unique password of at least 16 characters |
+| `SESSION_SECRET` | A separate random string of at least 32 characters; a password manager can generate 64 random characters |
+
+Save/deploy the settings. Do not share these values here or upload them to GitHub. The login stays disabled until all three settings are valid. Replacing the password or session secret invalidates existing sessions.
+
+Optionally add `SITE_URL` as a normal runtime variable with the exact website address Cloudflare provides, such as your actual `https://…workers.dev` address. It is used for canonical page links and the sitemap. Do not enter a guessed address. Dashboard settings are preserved on later builds.
+
+## 4. Open the website
+
+Use the actual URL shown in the successful Cloudflare deployment. Open `/admin` at the end of that address to sign in with the email and password you configured.
+
+Choose **New entry**, add the actual story title and text, attach a booklet/video, and save a private draft. Preview it before switching visibility to **Published on website**. Readers can open published stories and download attached PDFs without signing in.
+
+Upload limits remain: PDF 20 MB, image 8 MB, video 30 MB. Longer videos can use YouTube links. Sessions expire after eight hours; ten failed sign-in attempts from one address trigger a fifteen-minute pause.
+
+## Verification and current status
+
+The conversion was built and tested locally. Checks covered signed sessions, expiration and tampering, password changes, rejection of old identity headers, login rate limits, cross-origin rejection, draft/file privacy, uploads, publication/unpublication, PDF downloads, and byte ranges. A Cloudflare account deployment has not been performed or verified by the assistant.
+
+If Cloudflare displays an error, share a screenshot of the build error with secrets and tokens hidden. Do not change the build command to a static-assets upload command; the dashboard requires the Worker.
+
+## Development reference
+
+Use Node.js 24 and `npm ci`. Run `npm test` and `npx tsc --noEmit`, then `npm run build`.
+
+For local development, create an ignored `.dev.vars` with the three administrator settings. Test-only settings can be created using `node scripts/create-preview-secrets.mjs`; this does not create real hosted credentials. Apply migrations using `npx wrangler d1 migrations apply DB --local --persist-to .wrangler/state`, then run `npm run dev`. The HTTP integration script reads only these local test settings. Never commit `.dev.vars`.
+
+Official references: [Workers Builds configuration](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/), [resource provisioning](https://developers.cloudflare.com/workers/wrangler/configuration/#automatic-provisioning), [runtime secrets](https://developers.cloudflare.com/workers/configuration/secrets/).

@@ -1,6 +1,6 @@
-import {requireChatGPTUser,chatGPTSignOutPath} from '../chatgpt-auth';
-import {isOwner} from '../../lib/server';
+import {getAdminUser,loginConfigured} from '../../lib/admin-auth';
 import Dashboard from './dashboard';
+import Login from './login';
 export const dynamic='force-dynamic';
 export const metadata={title:'Private Content Dashboard | The Blessing Voices',robots:{index:false,follow:false}};
-export default async function Admin(){const user=await requireChatGPTUser('/admin');if(!await isOwner())return <main style={{padding:50}}><h1>Owner access required</h1><p>Sign in with the account that owns The Blessing Voices.</p><a href={chatGPTSignOutPath('/admin')} target="_top">Sign out</a></main>;return <Dashboard name={user.displayName}/>;}
+export default async function Admin(){const user=await getAdminUser();return user?<Dashboard name={user.displayName}/>:<Login configured={loginConfigured()}/>;}
