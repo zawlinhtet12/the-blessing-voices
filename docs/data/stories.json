@@ -1,5 +1,14 @@
 [
   {
+    "id": "the-parable-of-the-good-samaritan",
+    "title": "The Parable of the Good Samaritan",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 10:30–37",
+    "summary": "Discover how compassion becomes action through the Samaritan who stopped to care for a wounded stranger.",
+    "pdf": "booklets/the-parable-of-the-good-samaritan.pdf",
+    "image": "images/the-parable-of-the-good-samaritan.png"
+  },
+  {
     "id": "the-parable-of-the-sower",
     "title": "The Parable of the Sower",
     "collection": "parables-and-metaphors",
