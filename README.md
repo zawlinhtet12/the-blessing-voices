@@ -1,67 +1,51 @@
-# The Blessing Voices — Cloudflare setup
+# The Blessing Voices — free GitHub Pages edition
 
-This version runs independently of ChatGPT Sites. It uses Cloudflare Workers for the website, D1 for story records, R2 for files, and its own private administrator sign-in. No ChatGPT account is required for visitors or administrators.
+The website is served entirely from the `docs` folder. It needs no Cloudflare Worker, R2 subscription, database, administrator password, or payment setup. The public repository can use GitHub Pages with GitHub Free.
 
-## 1. Update GitHub first
+## Publish the free website
 
-Open the supplied **Cloudflare-Update** folder. Upload everything inside it to the root of `zawlinhtet12/the-blessing-voices`, keeping the folders intact. Include the `app` folder even though one already exists. GitHub will merge its contents and replace matching files. Commit the changes.
+1. Upload the supplied **docs** folder to the root of `zawlinhtet12/the-blessing-voices` and commit the changes. Keep the folder name `docs`; do not upload its files directly to the repository root.
+2. In the repository, open **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Choose branch **main**, folder **/docs**, and click **Save**.
+5. Wait for the **pages build and deployment** workflow to finish. Use the website link GitHub displays in Pages settings.
 
-The update contains fewer than 100 files. It also restores the homepage route that was missing from the manual GitHub uploads. Do not upload local dependencies, `.dev.vars`, or any password file.
+The expected project address is `https://zawlinhtet12.github.io/the-blessing-voices/`. This address is not proof the website has already deployed.
 
-## 2. Connect Cloudflare to GitHub
+You can leave R2 disabled. The old Cloudflare deployment is no longer used for this version. Disconnect its Git repository in the Cloudflare Worker's build settings to stop it attempting the old deployment on each commit. Existing Cloudflare source files in the repository do not need to be deleted: GitHub Pages publishes only `/docs`.
 
-1. Sign in at https://dash.cloudflare.com/ and open **Workers & Pages**.
-2. Create a new Worker/application and select the option to import a Git repository.
-3. Authorize Cloudflare to access your GitHub repository, then select **the-blessing-voices**.
-4. Use the following settings:
+## Add a story, booklet, or YouTube video
 
-| Setting | Value |
-| --- | --- |
-| Worker/project name | `the-blessing-voices` |
-| Production branch | `main` |
-| Root directory | Repository root; leave the default |
-| Build command | `npm run build` |
-| Deploy command | `npm run deploy` |
-| Build variable | `NODE_VERSION` = `24` |
+After deployment, open the website and choose **Prepare a story or booklet** in the footer, or open `/the-blessing-voices/editor/` on your GitHub Pages domain.
 
-Use a **Worker with a Git connection**, rather than a static-only Pages deployment.
+1. Enter the real story title, a unique page name, collection, Scripture reference, and summary.
+2. Complete the story, context, lessons, life applications, three reflection questions, and prayer. Distinguish your own reflections from Bible quotations.
+3. Select your actual PDF booklet and optional cover image. Paste an optional YouTube video link. No video file is uploaded to GitHub by the editor.
+4. Preview the story and check it carefully.
+5. Choose **Download GitHub upload package**. Extract that ZIP.
+6. Drag the **docs** folder inside the extracted package into your GitHub repository’s **Add file → Upload files** area. Commit the files. A typical package contains the story page, updated library index, PDF, and cover image.
+7. Wait for GitHub Pages to finish updating. Then use **Reload published library** in the editor before preparing another story. This preserves the latest index and prevents one package from hiding another entry.
 
-The supplied deployment command is designed to create the declared storage bindings if needed, apply the database migrations, and publish the built Worker. R2 must be enabled on the Cloudflare account. Complete any account setup prompts directly in Cloudflare.
+The updated `data/stories.json` index makes the story appear on its collection page, in search results, and in the booklet library if a PDF is attached. Do not replace it with an old index or an empty file after publishing real stories.
 
-If deployment reports a permissions error for D1, the build’s Cloudflare API token needs the account’s **D1 Edit** permission in addition to the normal Workers and R2 permissions. Change that permission in Cloudflare; never put an API token in GitHub or this chat.
+## Editing and drafts
 
-## 3. Configure the private dashboard
+Select an existing story in the editor to load its editable source from the published story HTML. Keep the same page name when updating it. The editor can also restore a downloaded draft JSON or a previously generated story HTML page.
 
-After the first deployment, open the Worker’s **Settings → Variables & Secrets**. Add these as **runtime secrets**, not build variables:
+**Save draft on this device** stores text in that browser only. It does not store the selected PDF or image. **Download draft backup** provides a JSON backup that you can keep privately; do not upload draft backups to GitHub unless you intend to make their contents public. Reselect any unpublished attachments before exporting.
 
-| Secret name | What you enter |
-| --- | --- |
-| `ADMIN_EMAIL` | Your administrator email address |
-| `ADMIN_PASSWORD` | A unique password of at least 16 characters |
-| `SESSION_SECRET` | A separate random string of at least 32 characters; a password manager can generate 64 random characters |
+There is no private online dashboard or password system in this free edition. The editor is a public file-preparation tool. It cannot write to GitHub, and it never asks for a password or access token. GitHub account permissions control who can publish. Nothing is published until the repository files are committed and Pages deploys them.
 
-Save/deploy the settings. Do not share these values here or upload them to GitHub. The login stays disabled until all three settings are valid. Replacing the password or session secret invalidates existing sessions.
+## File sizes and free-service limits
 
-Optionally add `SITE_URL` as a normal runtime variable with the exact website address Cloudflare provides, such as your actual `https://…workers.dev` address. It is used for canonical page links and the sitemap. Do not enter a guessed address. Dashboard settings are preserved on later builds.
+The editor accepts PDF booklets up to **5 MB** and cover images up to **1 MB** to help keep a 156-story library small. Use compressed PDF files and small cover images. Keep all video files on YouTube.
 
-## 4. Open the website
+GitHub Pages has a **1 GB published-site limit** and other usage limits. This setup uses its included public-repository service; it does not provide unlimited storage. Check the repository size as the collection grows.
 
-Use the actual URL shown in the successful Cloudflare deployment. Open `/admin` at the end of that address to sign in with the email and password you configured.
+## What is included
 
-Choose **New entry**, add the actual story title and text, attach a booklet/video, and save a private draft. Preview it before switching visibility to **Published on website**. Readers can open published stories and download attached PDFs without signing in.
+Home, four collection pages, free booklet library, About, Contact, story-layout preview, content editor, an `/admin/` information page, optimized images, sitemap, and a 404 page. No finalized list of 156 stories, actual booklet files, contact details, or sample biblical stories have been invented. The planned collection counts remain clearly labeled.
 
-Upload limits remain: PDF 20 MB, image 8 MB, video 30 MB. Longer videos can use YouTube links. Sessions expire after eight hours; ten failed sign-in attempts from one address trigger a fifteen-minute pause.
+Checks cover story validation, unsafe paths, HTML escaping, preservation of the library index, download-package integrity, and internal links under the GitHub project path. The ZIP exporter was independently checked with Python's ZIP reader. The website must still be enabled in your GitHub Pages settings; no remote deployment is claimed.
 
-## Verification and current status
-
-The conversion was built and tested locally. Checks covered signed sessions, expiration and tampering, password changes, rejection of old identity headers, login rate limits, cross-origin rejection, draft/file privacy, uploads, publication/unpublication, PDF downloads, and byte ranges. A Cloudflare account deployment has not been performed or verified by the assistant.
-
-If Cloudflare displays an error, share a screenshot of the build error with secrets and tokens hidden. Do not change the build command to a static-assets upload command; the dashboard requires the Worker.
-
-## Development reference
-
-Use Node.js 24 and `npm ci`. Run `npm test` and `npx tsc --noEmit`, then `npm run build`.
-
-For local development, create an ignored `.dev.vars` with the three administrator settings. Test-only settings can be created using `node scripts/create-preview-secrets.mjs`; this does not create real hosted credentials. Apply migrations using `npx wrangler d1 migrations apply DB --local --persist-to .wrangler/state`, then run `npm run dev`. The HTTP integration script reads only these local test settings. Never commit `.dev.vars`.
-
-Official references: [Workers Builds configuration](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/), [resource provisioning](https://developers.cloudflare.com/workers/wrangler/configuration/#automatic-provisioning), [runtime secrets](https://developers.cloudflare.com/workers/configuration/secrets/).
+Official guidance: [GitHub Pages publishing settings](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), [uploading files](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository), [GitHub Pages limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits).

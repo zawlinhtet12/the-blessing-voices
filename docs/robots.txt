@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /the-blessing-voices/editor/
+Disallow: /the-blessing-voices/story-template/
+Sitemap: https://zawlinhtet12.github.io/the-blessing-voices/sitemap.xml

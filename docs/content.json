@@ -1,0 +1,46 @@
+{
+  "collections": [
+    {
+      "slug": "parables-and-metaphors",
+      "short": "Parables & Metaphors",
+      "title": "Parables and Metaphors",
+      "count": 59,
+      "desc": "Discover timeless spiritual lessons through the parables, metaphors, and teachings of Jesus and His disciples.",
+      "motif": "A seed of wisdom. A lifetime of growth.",
+      "icon": "✧",
+      "image": "parables"
+    },
+    {
+      "slug": "miracles",
+      "short": "Miracles",
+      "title": "Miracles of Jesus & His Disciples",
+      "count": 37,
+      "desc": "Explore powerful accounts of healing, compassion, faith, and divine intervention recorded in Scripture.",
+      "motif": "Where compassion meets the extraordinary.",
+      "icon": "≈",
+      "image": "miracles"
+    },
+    {
+      "slug": "new-testament",
+      "short": "New Testament",
+      "title": "New Testament Stories",
+      "count": 30,
+      "desc": "Journey through the life of Jesus Christ, the early Church, and the teachings of the apostles.",
+      "motif": "Good news that changes everything.",
+      "icon": "☀",
+      "image": "new"
+    },
+    {
+      "slug": "old-testament",
+      "short": "Old Testament",
+      "title": "Old Testament Stories",
+      "count": 30,
+      "desc": "Discover inspiring accounts of creation, courage, obedience, God’s promises, and His faithfulness throughout biblical history.",
+      "motif": "Faithful through every generation.",
+      "icon": "⌁",
+      "image": "old"
+    }
+  ],
+  "stories": [],
+  "booklets": []
+}
