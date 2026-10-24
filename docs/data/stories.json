@@ -1,5 +1,50 @@
 [
   {
+    "id": "jesus-heals-a-centurions-servant",
+    "title": "Jesus Heals a Centurion's Servant",
+    "collection": "miracles",
+    "scripture": "Matthew 8:5–13; Luke 7:1–10",
+    "summary": "Reflect on a centurion’s humble trust in the authority of Jesus’ word.",
+    "pdf": "booklets/jesus-heals-a-centurions-servant.pdf",
+    "image": "images/jesus-heals-a-centurions-servant.jpg"
+  },
+  {
+    "id": "jesus-heals-a-man-with-leprosy",
+    "title": "Jesus Heals a Man with Leprosy",
+    "collection": "miracles",
+    "scripture": "Matthew 8:1–4; Mark 1:40–45; Luke 5:12–16",
+    "summary": "Discover Jesus’ compassionate response to a man who asked to be made clean.",
+    "pdf": "booklets/jesus-heals-a-man-with-leprosy.pdf",
+    "image": "images/jesus-heals-a-man-with-leprosy.jpg"
+  },
+  {
+    "id": "jesus-heals-a-paralytic",
+    "title": "Jesus Heals a Paralytic",
+    "collection": "miracles",
+    "scripture": "Matthew 9:1–8; Mark 2:1–12; Luke 5:17–26",
+    "summary": "Read how Jesus forgave and healed a paralysed man brought to him by others.",
+    "pdf": "booklets/jesus-heals-a-paralytic.pdf",
+    "image": "images/jesus-heals-a-paralytic.jpg"
+  },
+  {
+    "id": "jesus-heals-many-sick-at-evening",
+    "title": "Jesus Heals Many Sick at Evening",
+    "collection": "miracles",
+    "scripture": "Matthew 8:16–17; Mark 1:32–34; Luke 4:40–41",
+    "summary": "Explore the Gospel accounts of people bringing those who were suffering to Jesus at evening.",
+    "pdf": "booklets/jesus-heals-many-sick-at-evening.pdf",
+    "image": "images/jesus-heals-many-sick-at-evening.jpg"
+  },
+  {
+    "id": "jesus-heals-peters-mother-in-law",
+    "title": "Jesus Heals Peter’s Mother-in-Law",
+    "collection": "miracles",
+    "scripture": "Matthew 8:14–15; Mark 1:29–31; Luke 4:38–39",
+    "summary": "Consider Jesus’ care for Peter’s mother-in-law and her response after the fever left her.",
+    "pdf": "booklets/jesus-heals-peters-mother-in-law.pdf",
+    "image": "images/jesus-heals-peters-mother-in-law.jpg"
+  },
+  {
     "id": "the-parable-of-the-good-samaritan",
     "title": "The Parable of the Good Samaritan",
     "collection": "parables-and-metaphors",
