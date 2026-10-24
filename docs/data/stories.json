@@ -9,6 +9,33 @@
     "image": "images/jesus-heals-a-centurions-servant.jpg"
   },
   {
+    "id": "jesus-heals-a-lame-man-at-the-pool-of-bethesda",
+    "title": "Jesus Heals a Lame Man at the Pool of Bethesda",
+    "collection": "miracles",
+    "scripture": "John 5:1–15",
+    "summary": "Read how Jesus noticed a man who had been ill for thirty-eight years at Bethesda.",
+    "pdf": "booklets/jesus-heals-a-lame-man-at-the-pool-of-bethesda.pdf",
+    "image": "images/jesus-heals-a-lame-man-at-the-pool-of-bethesda.jpg"
+  },
+  {
+    "id": "jesus-heals-a-man-born-blind",
+    "title": "Jesus Heals a Man Born Blind",
+    "collection": "miracles",
+    "scripture": "John 9:1–41",
+    "summary": "Explore the healing, testimony, and growing recognition of Jesus in the account of a man born blind.",
+    "pdf": "booklets/jesus-heals-a-man-born-blind.pdf",
+    "image": "images/jesus-heals-a-man-born-blind.jpg"
+  },
+  {
+    "id": "jesus-heals-a-man-with-dropsy",
+    "title": "Jesus Heals a Man with Dropsy",
+    "collection": "miracles",
+    "scripture": "Luke 14:1–6",
+    "summary": "Reflect on Jesus’ compassion and his question about healing on the Sabbath.",
+    "pdf": "booklets/jesus-heals-a-man-with-dropsy.pdf",
+    "image": "images/jesus-heals-a-man-with-dropsy.jpg"
+  },
+  {
     "id": "jesus-heals-a-man-with-leprosy",
     "title": "Jesus Heals a Man with Leprosy",
     "collection": "miracles",
@@ -34,6 +61,15 @@
     "summary": "Explore the healing of a man unable to speak and the contrasting responses to Jesus’ work.",
     "pdf": "booklets/jesus-heals-a-mute-demon-possessed-man.pdf",
     "image": "images/jesus-heals-a-mute-demon-possessed-man.jpg"
+  },
+  {
+    "id": "jesus-heals-a-nobleman-s-son",
+    "title": "Jesus Heals a Nobleman’s Son",
+    "collection": "miracles",
+    "scripture": "John 4:46–54",
+    "summary": "Explore the royal official’s trust in Jesus’ word before he learned his son had recovered.",
+    "pdf": "booklets/jesus-heals-a-nobleman-s-son.pdf",
+    "image": "images/jesus-heals-a-nobleman-s-son.jpg"
   },
   {
     "id": "jesus-heals-a-paralytic",
@@ -63,6 +99,15 @@
     "image": "images/jesus-heals-a-woman-with-an-issue-of-blood.jpg"
   },
   {
+    "id": "jesus-heals-bartimaeus-a-blind-beggar",
+    "title": "Jesus Heals Bartimaeus, a Blind Beggar",
+    "collection": "miracles",
+    "scripture": "Mark 10:46–52; related account: Luke 18:35–43",
+    "summary": "Read how Bartimaeus called for mercy and followed Jesus after receiving his sight.",
+    "pdf": "booklets/jesus-heals-bartimaeus-a-blind-beggar.pdf",
+    "image": "images/jesus-heals-bartimaeus-a-blind-beggar.jpg"
+  },
+  {
     "id": "jesus-heals-many-at-the-sea-of-galilee",
     "title": "Jesus Heals Many at the Sea of Galilee",
     "collection": "miracles",
@@ -88,6 +133,24 @@
     "summary": "Consider Jesus’ care for Peter’s mother-in-law and her response after the fever left her.",
     "pdf": "booklets/jesus-heals-peters-mother-in-law.pdf",
     "image": "images/jesus-heals-peters-mother-in-law.jpg"
+  },
+  {
+    "id": "jesus-heals-ten-lepers",
+    "title": "Jesus Heals Ten Lepers",
+    "collection": "miracles",
+    "scripture": "Luke 17:11–19",
+    "summary": "Discover the gratitude of the one man who returned to thank Jesus after ten were cleansed.",
+    "pdf": "booklets/jesus-heals-ten-lepers.pdf",
+    "image": "images/jesus-heals-ten-lepers.jpg"
+  },
+  {
+    "id": "jesus-heals-the-ear-of-malchus",
+    "title": "Jesus Heals the Ear of Malchus",
+    "collection": "miracles",
+    "scripture": "Luke 22:47–53; John 18:10–11",
+    "summary": "Reflect on Jesus’ healing response during the violence surrounding his arrest.",
+    "pdf": "booklets/jesus-heals-the-ear-of-malchus.pdf",
+    "image": "images/jesus-heals-the-ear-of-malchus.jpg"
   },
   {
     "id": "jesus-heals-two-blind-men",
