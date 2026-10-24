@@ -9,6 +9,33 @@
     "image": "images/the-parable-of-the-good-samaritan.png"
   },
   {
+    "id": "the-parable-of-the-hidden-treasure",
+    "title": "The Parable of the Hidden Treasure",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 13:44",
+    "summary": "Reflect on the joy of discovering God’s kingdom through the treasure hidden in a field.",
+    "pdf": "booklets/the-parable-of-the-hidden-treasure.pdf",
+    "image": "images/the-parable-of-the-hidden-treasure.jpg"
+  },
+  {
+    "id": "the-parable-of-the-mustard-seed",
+    "title": "The Parable of the Mustard Seed",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 13:31–32; Mark 4:30–32; Luke 13:18–19",
+    "summary": "Discover encouragement in the contrast between a tiny mustard seed and the large plant it becomes.",
+    "pdf": "booklets/the-parable-of-the-mustard-seed.pdf",
+    "image": "images/the-parable-of-the-mustard-seed.png"
+  },
+  {
+    "id": "the-parable-of-the-pearl-of-great-value",
+    "title": "The Parable of the Pearl of Great Value",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 13:45–46",
+    "summary": "Consider the surpassing value of God’s kingdom through a merchant’s discovery of a precious pearl.",
+    "pdf": "booklets/the-parable-of-the-pearl-of-great-value.pdf",
+    "image": "images/the-parable-of-the-pearl-of-great-value.png"
+  },
+  {
     "id": "the-parable-of-the-sower",
     "title": "The Parable of the Sower",
     "collection": "parables-and-metaphors",
@@ -16,5 +43,14 @@
     "summary": "Reflect on the four kinds of soil and how we receive God’s Word.",
     "pdf": "booklets/the-parable-of-the-sower.pdf",
     "image": "images/the-parable-of-the-sower.png"
+  },
+  {
+    "id": "the-parable-of-the-yeast",
+    "title": "The Parable of the Yeast",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 13:33; Luke 13:20–21",
+    "summary": "Explore Jesus’ illustration of yeast working through dough and reflect on the transforming influence of God’s kingdom.",
+    "pdf": "booklets/the-parable-of-the-yeast.pdf",
+    "image": "images/the-parable-of-the-yeast.png"
   }
 ]
