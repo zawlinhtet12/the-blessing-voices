@@ -18,6 +18,24 @@
     "image": "images/jesus-heals-a-man-with-leprosy.jpg"
   },
   {
+    "id": "jesus-heals-a-man-s-withered-hand",
+    "title": "Jesus Heals a Man’s Withered Hand",
+    "collection": "miracles",
+    "scripture": "Matthew 12:9–14; Mark 3:1–6; Luke 6:6–11",
+    "summary": "Reflect on Jesus’ teaching about doing good on the Sabbath as he restores a man’s hand.",
+    "pdf": "booklets/jesus-heals-a-man-s-withered-hand.pdf",
+    "image": "images/jesus-heals-a-man-s-withered-hand.jpg"
+  },
+  {
+    "id": "jesus-heals-a-mute-demon-possessed-man",
+    "title": "Jesus Heals a Mute Demon-Possessed Man",
+    "collection": "miracles",
+    "scripture": "Matthew 9:32–34",
+    "summary": "Explore the healing of a man unable to speak and the contrasting responses to Jesus’ work.",
+    "pdf": "booklets/jesus-heals-a-mute-demon-possessed-man.pdf",
+    "image": "images/jesus-heals-a-mute-demon-possessed-man.jpg"
+  },
+  {
     "id": "jesus-heals-a-paralytic",
     "title": "Jesus Heals a Paralytic",
     "collection": "miracles",
@@ -25,6 +43,33 @@
     "summary": "Read how Jesus forgave and healed a paralysed man brought to him by others.",
     "pdf": "booklets/jesus-heals-a-paralytic.pdf",
     "image": "images/jesus-heals-a-paralytic.jpg"
+  },
+  {
+    "id": "jesus-heals-a-woman-crippled-for-eighteen-years",
+    "title": "Jesus Heals a Woman Crippled for Eighteen Years",
+    "collection": "miracles",
+    "scripture": "Luke 13:10–17",
+    "summary": "Consider Jesus’ care for a woman bent over for eighteen years and his defence of her freedom on the Sabbath.",
+    "pdf": "booklets/jesus-heals-a-woman-crippled-for-eighteen-years.pdf",
+    "image": "images/jesus-heals-a-woman-crippled-for-eighteen-years.jpg"
+  },
+  {
+    "id": "jesus-heals-a-woman-with-an-issue-of-blood",
+    "title": "Jesus Heals a Woman with an Issue of Blood",
+    "collection": "miracles",
+    "scripture": "Matthew 9:20–22; Mark 5:25–34; Luke 8:43–48",
+    "summary": "Reflect on Jesus’ compassionate response to a woman who had suffered bleeding for twelve years.",
+    "pdf": "booklets/jesus-heals-a-woman-with-an-issue-of-blood.pdf",
+    "image": "images/jesus-heals-a-woman-with-an-issue-of-blood.jpg"
+  },
+  {
+    "id": "jesus-heals-many-at-the-sea-of-galilee",
+    "title": "Jesus Heals Many at the Sea of Galilee",
+    "collection": "miracles",
+    "scripture": "Mark 3:7–12; related readings: Matthew 4:23–25; Luke 6:17–19",
+    "summary": "Read about the crowds who gathered by the sea as Jesus healed many people.",
+    "pdf": "booklets/jesus-heals-many-at-the-sea-of-galilee.pdf",
+    "image": "images/jesus-heals-many-at-the-sea-of-galilee.jpg"
   },
   {
     "id": "jesus-heals-many-sick-at-evening",
@@ -43,6 +88,15 @@
     "summary": "Consider Jesus’ care for Peter’s mother-in-law and her response after the fever left her.",
     "pdf": "booklets/jesus-heals-peters-mother-in-law.pdf",
     "image": "images/jesus-heals-peters-mother-in-law.jpg"
+  },
+  {
+    "id": "jesus-heals-two-blind-men",
+    "title": "Jesus Heals Two Blind Men",
+    "collection": "miracles",
+    "scripture": "Matthew 9:27–31",
+    "summary": "Read how two blind men called to Jesus for mercy and received their sight.",
+    "pdf": "booklets/jesus-heals-two-blind-men.pdf",
+    "image": "images/jesus-heals-two-blind-men.jpg"
   },
   {
     "id": "the-parable-of-the-good-samaritan",
