@@ -27,6 +27,15 @@
     "image": "images/the-parable-of-the-mustard-seed.png"
   },
   {
+    "id": "the-parable-of-the-net",
+    "title": "The Parable of the Net",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 13:47–50",
+    "summary": "Reflect on Jesus’ illustration of a fishing net and his teaching about judgment at the end of the age.",
+    "pdf": "booklets/the-parable-of-the-net.pdf",
+    "image": "images/the-parable-of-the-net.png"
+  },
+  {
     "id": "the-parable-of-the-pearl-of-great-value",
     "title": "The Parable of the Pearl of Great Value",
     "collection": "parables-and-metaphors",
@@ -43,6 +52,33 @@
     "summary": "Reflect on the four kinds of soil and how we receive God’s Word.",
     "pdf": "booklets/the-parable-of-the-sower.pdf",
     "image": "images/the-parable-of-the-sower.png"
+  },
+  {
+    "id": "the-parable-of-the-two-sons",
+    "title": "The Parable of the Two Sons",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 21:28–32",
+    "summary": "Discover why a changed response and obedient action matter more than an unfulfilled promise.",
+    "pdf": "booklets/the-parable-of-the-two-sons.pdf",
+    "image": "images/the-parable-of-the-two-sons.jpg"
+  },
+  {
+    "id": "the-parable-of-the-unforgiving-servant",
+    "title": "The Parable of the Unforgiving Servant",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 18:23–35",
+    "summary": "Explore the contrast between receiving great mercy and refusing to show mercy to someone else.",
+    "pdf": "booklets/the-parable-of-the-unforgiving-servant.pdf",
+    "image": "images/the-parable-of-the-unforgiving-servant.jpg"
+  },
+  {
+    "id": "the-parable-of-the-workers-in-the-vineyard",
+    "title": "The Parable of the Workers in the Vineyard",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 20:1–16",
+    "summary": "Consider generosity, grace, and contentment through the vineyard owner who paid workers hired at different hours.",
+    "pdf": "booklets/the-parable-of-the-workers-in-the-vineyard.pdf",
+    "image": "images/the-parable-of-the-workers-in-the-vineyard.jpg"
   },
   {
     "id": "the-parable-of-the-yeast",
