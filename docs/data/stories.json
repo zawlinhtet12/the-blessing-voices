@@ -1,5 +1,32 @@
 [
   {
+    "id": "a-mirror-james",
+    "title": "A Mirror (James)",
+    "collection": "parables-and-metaphors",
+    "scripture": "James 1:23–25",
+    "summary": "Reflect on the difference between hearing God’s Word and putting it into practice.",
+    "pdf": "booklets/a-mirror-james.pdf",
+    "image": "images/a-mirror-james.jpg"
+  },
+  {
+    "id": "a-race-paul",
+    "title": "A Race (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "1 Corinthians 9:24–27",
+    "summary": "Reflect on disciplined effort and purposeful perseverance through Paul’s athletic imagery.",
+    "pdf": "booklets/a-race-paul.pdf",
+    "image": "images/a-race-paul.png"
+  },
+  {
+    "id": "a-raging-fire-james",
+    "title": "A Raging Fire (James)",
+    "collection": "parables-and-metaphors",
+    "scripture": "James 3:5–6",
+    "summary": "Consider the far-reaching effects of speech through James’ image of a small fire.",
+    "pdf": "booklets/a-raging-fire-james.pdf",
+    "image": "images/a-raging-fire-james.jpg"
+  },
+  {
     "id": "athlete-soldier-farmer-paul",
     "title": "Athlete, Soldier, Farmer (Paul)",
     "collection": "parables-and-metaphors",
@@ -25,6 +52,24 @@
     "summary": "Consider Jesus’ paired illustrations of a new patch and new wine.",
     "pdf": "booklets/cloth-and-wineskins.pdf",
     "image": "images/cloth-and-wineskins.jpg"
+  },
+  {
+    "id": "fruit-of-the-spirit-paul",
+    "title": "Fruit of the Spirit (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "Galatians 5:22–23",
+    "summary": "Reflect on the character of a life shaped by the Spirit.",
+    "pdf": "booklets/fruit-of-the-spirit-paul.pdf",
+    "image": "images/fruit-of-the-spirit-paul.jpg"
+  },
+  {
+    "id": "jesus-as-the-cornerstone-peter",
+    "title": "Jesus as the Cornerstone (Peter)",
+    "collection": "parables-and-metaphors",
+    "scripture": "1 Peter 2:6–8",
+    "summary": "Consider the cornerstone image and the call to trust Christ.",
+    "pdf": "booklets/jesus-as-the-cornerstone-peter.pdf",
+    "image": "images/jesus-as-the-cornerstone-peter.jpg"
   },
   {
     "id": "jesus-heals-a-centurions-servant",
@@ -261,6 +306,15 @@
     "image": "images/the-blind-leading-the-blind.jpg"
   },
   {
+    "id": "the-body-and-the-bread-paul",
+    "title": "The Body and the Bread (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "1 Corinthians 10:16–17; 11:23–26",
+    "summary": "Reflect on shared bread, participation in Christ, and remembrance at the Lord’s Supper.",
+    "pdf": "booklets/the-body-and-the-bread-paul.pdf",
+    "image": "images/the-body-and-the-bread-paul.jpg"
+  },
+  {
     "id": "the-body-of-christ-paul",
     "title": "The Body of Christ (Paul)",
     "collection": "parables-and-metaphors",
@@ -313,6 +367,15 @@
     "summary": "Explore harvest imagery in Jesus’ call to prayer and participation in God’s work.",
     "pdf": "booklets/the-harvest.pdf",
     "image": "images/the-harvest.jpg"
+  },
+  {
+    "id": "the-light-in-darkness-john",
+    "title": "The Light in Darkness (John)",
+    "collection": "parables-and-metaphors",
+    "scripture": "John 1:4–5; 1 John 1:5–7",
+    "summary": "Explore the imagery of light, life, and truthful fellowship in John’s writings.",
+    "pdf": "booklets/the-light-in-darkness-john.pdf",
+    "image": "images/the-light-in-darkness-john.jpg"
   },
   {
     "id": "the-parable-of-the-cost-of-discipleship",
@@ -495,6 +558,15 @@
     "image": "images/the-parable-of-the-yeast.png"
   },
   {
+    "id": "the-sower-paul",
+    "title": "The Sower (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "Galatians 6:7–9",
+    "summary": "Explore sowing and reaping as an image of choices, perseverance, and life in the Spirit.",
+    "pdf": "booklets/the-sower-paul.pdf",
+    "image": "images/the-sower-paul.jpg"
+  },
+  {
     "id": "the-strong-man",
     "title": "The Strong Man",
     "collection": "parables-and-metaphors",
@@ -502,6 +574,15 @@
     "summary": "Explore the strong-man illustration in Jesus’ response to accusations about his authority.",
     "pdf": "booklets/the-strong-man.pdf",
     "image": "images/the-strong-man.jpg"
+  },
+  {
+    "id": "the-temple-of-the-holy-spirit-paul",
+    "title": "The Temple of the Holy Spirit (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "1 Corinthians 6:19–20",
+    "summary": "Consider Paul’s teaching about the body, belonging to God, and honouring him.",
+    "pdf": "booklets/the-temple-of-the-holy-spirit-paul.pdf",
+    "image": "images/the-temple-of-the-holy-spirit-paul.jpg"
   },
   {
     "id": "the-vine-and-the-branches",
