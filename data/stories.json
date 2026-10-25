@@ -1,0 +1,524 @@
+[
+  {
+    "id": "athlete-soldier-farmer-paul",
+    "title": "Athlete, Soldier, Farmer (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "2 Timothy 2:3–6",
+    "summary": "Consider focused service, disciplined effort, and patient labour through three illustrations.",
+    "pdf": "booklets/athlete-soldier-farmer-paul.pdf",
+    "image": "images/athlete-soldier-farmer-paul.jpg"
+  },
+  {
+    "id": "city-on-a-hill",
+    "title": "City on a Hill",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 5:14–16",
+    "summary": "Explore the image of a visible city within Jesus’ teaching about light.",
+    "pdf": "booklets/city-on-a-hill.pdf",
+    "image": "images/city-on-a-hill.jpg"
+  },
+  {
+    "id": "cloth-and-wineskins",
+    "title": "Cloth and Wineskins",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 9:16–17; Mark 2:21–22; Luke 5:36–39",
+    "summary": "Consider Jesus’ paired illustrations of a new patch and new wine.",
+    "pdf": "booklets/cloth-and-wineskins.pdf",
+    "image": "images/cloth-and-wineskins.jpg"
+  },
+  {
+    "id": "jesus-heals-a-centurions-servant",
+    "title": "Jesus Heals a Centurion's Servant",
+    "collection": "miracles",
+    "scripture": "Matthew 8:5–13; Luke 7:1–10",
+    "summary": "Reflect on a centurion’s humble trust in the authority of Jesus’ word.",
+    "pdf": "booklets/jesus-heals-a-centurions-servant.pdf",
+    "image": "images/jesus-heals-a-centurions-servant.jpg"
+  },
+  {
+    "id": "jesus-heals-a-lame-man-at-the-pool-of-bethesda",
+    "title": "Jesus Heals a Lame Man at the Pool of Bethesda",
+    "collection": "miracles",
+    "scripture": "John 5:1–15",
+    "summary": "Read how Jesus noticed a man who had been ill for thirty-eight years at Bethesda.",
+    "pdf": "booklets/jesus-heals-a-lame-man-at-the-pool-of-bethesda.pdf",
+    "image": "images/jesus-heals-a-lame-man-at-the-pool-of-bethesda.jpg"
+  },
+  {
+    "id": "jesus-heals-a-man-born-blind",
+    "title": "Jesus Heals a Man Born Blind",
+    "collection": "miracles",
+    "scripture": "John 9:1–41",
+    "summary": "Explore the healing, testimony, and growing recognition of Jesus in the account of a man born blind.",
+    "pdf": "booklets/jesus-heals-a-man-born-blind.pdf",
+    "image": "images/jesus-heals-a-man-born-blind.jpg"
+  },
+  {
+    "id": "jesus-heals-a-man-with-dropsy",
+    "title": "Jesus Heals a Man with Dropsy",
+    "collection": "miracles",
+    "scripture": "Luke 14:1–6",
+    "summary": "Reflect on Jesus’ compassion and his question about healing on the Sabbath.",
+    "pdf": "booklets/jesus-heals-a-man-with-dropsy.pdf",
+    "image": "images/jesus-heals-a-man-with-dropsy.jpg"
+  },
+  {
+    "id": "jesus-heals-a-man-with-leprosy",
+    "title": "Jesus Heals a Man with Leprosy",
+    "collection": "miracles",
+    "scripture": "Matthew 8:1–4; Mark 1:40–45; Luke 5:12–16",
+    "summary": "Discover Jesus’ compassionate response to a man who asked to be made clean.",
+    "pdf": "booklets/jesus-heals-a-man-with-leprosy.pdf",
+    "image": "images/jesus-heals-a-man-with-leprosy.jpg"
+  },
+  {
+    "id": "jesus-heals-a-man-s-withered-hand",
+    "title": "Jesus Heals a Man’s Withered Hand",
+    "collection": "miracles",
+    "scripture": "Matthew 12:9–14; Mark 3:1–6; Luke 6:6–11",
+    "summary": "Reflect on Jesus’ teaching about doing good on the Sabbath as he restores a man’s hand.",
+    "pdf": "booklets/jesus-heals-a-man-s-withered-hand.pdf",
+    "image": "images/jesus-heals-a-man-s-withered-hand.jpg"
+  },
+  {
+    "id": "jesus-heals-a-mute-demon-possessed-man",
+    "title": "Jesus Heals a Mute Demon-Possessed Man",
+    "collection": "miracles",
+    "scripture": "Matthew 9:32–34",
+    "summary": "Explore the healing of a man unable to speak and the contrasting responses to Jesus’ work.",
+    "pdf": "booklets/jesus-heals-a-mute-demon-possessed-man.pdf",
+    "image": "images/jesus-heals-a-mute-demon-possessed-man.jpg"
+  },
+  {
+    "id": "jesus-heals-a-nobleman-s-son",
+    "title": "Jesus Heals a Nobleman’s Son",
+    "collection": "miracles",
+    "scripture": "John 4:46–54",
+    "summary": "Explore the royal official’s trust in Jesus’ word before he learned his son had recovered.",
+    "pdf": "booklets/jesus-heals-a-nobleman-s-son.pdf",
+    "image": "images/jesus-heals-a-nobleman-s-son.jpg"
+  },
+  {
+    "id": "jesus-heals-a-paralytic",
+    "title": "Jesus Heals a Paralytic",
+    "collection": "miracles",
+    "scripture": "Matthew 9:1–8; Mark 2:1–12; Luke 5:17–26",
+    "summary": "Read how Jesus forgave and healed a paralysed man brought to him by others.",
+    "pdf": "booklets/jesus-heals-a-paralytic.pdf",
+    "image": "images/jesus-heals-a-paralytic.jpg"
+  },
+  {
+    "id": "jesus-heals-a-woman-crippled-for-eighteen-years",
+    "title": "Jesus Heals a Woman Crippled for Eighteen Years",
+    "collection": "miracles",
+    "scripture": "Luke 13:10–17",
+    "summary": "Consider Jesus’ care for a woman bent over for eighteen years and his defence of her freedom on the Sabbath.",
+    "pdf": "booklets/jesus-heals-a-woman-crippled-for-eighteen-years.pdf",
+    "image": "images/jesus-heals-a-woman-crippled-for-eighteen-years.jpg"
+  },
+  {
+    "id": "jesus-heals-a-woman-with-an-issue-of-blood",
+    "title": "Jesus Heals a Woman with an Issue of Blood",
+    "collection": "miracles",
+    "scripture": "Matthew 9:20–22; Mark 5:25–34; Luke 8:43–48",
+    "summary": "Reflect on Jesus’ compassionate response to a woman who had suffered bleeding for twelve years.",
+    "pdf": "booklets/jesus-heals-a-woman-with-an-issue-of-blood.pdf",
+    "image": "images/jesus-heals-a-woman-with-an-issue-of-blood.jpg"
+  },
+  {
+    "id": "jesus-heals-bartimaeus-a-blind-beggar",
+    "title": "Jesus Heals Bartimaeus, a Blind Beggar",
+    "collection": "miracles",
+    "scripture": "Mark 10:46–52; related account: Luke 18:35–43",
+    "summary": "Read how Bartimaeus called for mercy and followed Jesus after receiving his sight.",
+    "pdf": "booklets/jesus-heals-bartimaeus-a-blind-beggar.pdf",
+    "image": "images/jesus-heals-bartimaeus-a-blind-beggar.jpg"
+  },
+  {
+    "id": "jesus-heals-many-at-the-sea-of-galilee",
+    "title": "Jesus Heals Many at the Sea of Galilee",
+    "collection": "miracles",
+    "scripture": "Mark 3:7–12; related readings: Matthew 4:23–25; Luke 6:17–19",
+    "summary": "Read about the crowds who gathered by the sea as Jesus healed many people.",
+    "pdf": "booklets/jesus-heals-many-at-the-sea-of-galilee.pdf",
+    "image": "images/jesus-heals-many-at-the-sea-of-galilee.jpg"
+  },
+  {
+    "id": "jesus-heals-many-sick-at-evening",
+    "title": "Jesus Heals Many Sick at Evening",
+    "collection": "miracles",
+    "scripture": "Matthew 8:16–17; Mark 1:32–34; Luke 4:40–41",
+    "summary": "Explore the Gospel accounts of people bringing those who were suffering to Jesus at evening.",
+    "pdf": "booklets/jesus-heals-many-sick-at-evening.pdf",
+    "image": "images/jesus-heals-many-sick-at-evening.jpg"
+  },
+  {
+    "id": "jesus-heals-peters-mother-in-law",
+    "title": "Jesus Heals Peter’s Mother-in-Law",
+    "collection": "miracles",
+    "scripture": "Matthew 8:14–15; Mark 1:29–31; Luke 4:38–39",
+    "summary": "Consider Jesus’ care for Peter’s mother-in-law and her response after the fever left her.",
+    "pdf": "booklets/jesus-heals-peters-mother-in-law.pdf",
+    "image": "images/jesus-heals-peters-mother-in-law.jpg"
+  },
+  {
+    "id": "jesus-heals-ten-lepers",
+    "title": "Jesus Heals Ten Lepers",
+    "collection": "miracles",
+    "scripture": "Luke 17:11–19",
+    "summary": "Discover the gratitude of the one man who returned to thank Jesus after ten were cleansed.",
+    "pdf": "booklets/jesus-heals-ten-lepers.pdf",
+    "image": "images/jesus-heals-ten-lepers.jpg"
+  },
+  {
+    "id": "jesus-heals-the-ear-of-malchus",
+    "title": "Jesus Heals the Ear of Malchus",
+    "collection": "miracles",
+    "scripture": "Luke 22:47–53; John 18:10–11",
+    "summary": "Reflect on Jesus’ healing response during the violence surrounding his arrest.",
+    "pdf": "booklets/jesus-heals-the-ear-of-malchus.pdf",
+    "image": "images/jesus-heals-the-ear-of-malchus.jpg"
+  },
+  {
+    "id": "jesus-heals-two-blind-men",
+    "title": "Jesus Heals Two Blind Men",
+    "collection": "miracles",
+    "scripture": "Matthew 9:27–31",
+    "summary": "Read how two blind men called to Jesus for mercy and received their sight.",
+    "pdf": "booklets/jesus-heals-two-blind-men.pdf",
+    "image": "images/jesus-heals-two-blind-men.jpg"
+  },
+  {
+    "id": "lamp-on-a-stand",
+    "title": "Lamp on a Stand",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 5:15–16; Mark 4:21–25; Luke 8:16–18",
+    "summary": "Reflect on a lamp placed where its light can be useful and on listening carefully to Jesus.",
+    "pdf": "booklets/lamp-on-a-stand.pdf",
+    "image": "images/lamp-on-a-stand.jpg"
+  },
+  {
+    "id": "light-of-the-world",
+    "title": "Light of the World",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 5:14–16",
+    "summary": "Consider how visible good works can direct praise to the Father.",
+    "pdf": "booklets/light-of-the-world.pdf",
+    "image": "images/light-of-the-world.jpg"
+  },
+  {
+    "id": "living-stones-peter",
+    "title": "Living Stones (Peter)",
+    "collection": "parables-and-metaphors",
+    "scripture": "1 Peter 2:4–5",
+    "summary": "Explore the image of believers being built together into a spiritual house.",
+    "pdf": "booklets/living-stones-peter.pdf",
+    "image": "images/living-stones-peter.jpg"
+  },
+  {
+    "id": "living-water",
+    "title": "Living Water",
+    "collection": "parables-and-metaphors",
+    "scripture": "John 4:10–14; John 7:37–39",
+    "summary": "Explore Jesus’ promise of living water and John’s explanation of the Spirit.",
+    "pdf": "booklets/living-water.pdf",
+    "image": "images/living-water.jpg"
+  },
+  {
+    "id": "milk-and-solid-food-paul",
+    "title": "Milk and Solid Food (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "1 Corinthians 3:1–3; Hebrews 5:12–14",
+    "summary": "Reflect on spiritual growth through the comparison between milk and solid food.",
+    "pdf": "booklets/milk-and-solid-food-paul.pdf",
+    "image": "images/milk-and-solid-food-paul.jpg"
+  },
+  {
+    "id": "salt-of-the-earth",
+    "title": "Salt of the Earth",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 5:13",
+    "summary": "Reflect on Jesus’ image of salt and the distinctive calling of his disciples.",
+    "pdf": "booklets/salt-of-the-earth.pdf",
+    "image": "images/salt-of-the-earth.jpg"
+  },
+  {
+    "id": "the-armor-of-god-paul",
+    "title": "The Armor of God (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "Ephesians 6:10–18",
+    "summary": "Consider the armour imagery of truth, righteousness, faith, salvation, God’s word, and prayer.",
+    "pdf": "booklets/the-armor-of-god-paul.pdf",
+    "image": "images/the-armor-of-god-paul.jpg"
+  },
+  {
+    "id": "the-blind-leading-the-blind",
+    "title": "The Blind Leading the Blind",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 15:14; Luke 6:39–40",
+    "summary": "Consider Jesus’ warning about unreliable guidance and the need for discernment.",
+    "pdf": "booklets/the-blind-leading-the-blind.pdf",
+    "image": "images/the-blind-leading-the-blind.jpg"
+  },
+  {
+    "id": "the-body-of-christ-paul",
+    "title": "The Body of Christ (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "1 Corinthians 12:12–27",
+    "summary": "Reflect on unity, differing gifts, and mutual care through Paul’s image of one body with many parts.",
+    "pdf": "booklets/the-body-of-christ-paul.pdf",
+    "image": "images/the-body-of-christ-paul.jpg"
+  },
+  {
+    "id": "the-bread-of-life",
+    "title": "The Bread of Life",
+    "collection": "parables-and-metaphors",
+    "scripture": "John 6:35",
+    "summary": "Reflect on Jesus’ declaration that he is the bread of life and his invitation to come and believe.",
+    "pdf": "booklets/the-bread-of-life.pdf",
+    "image": "images/the-bread-of-life.jpg"
+  },
+  {
+    "id": "the-camel-and-the-eye-of-a-needle",
+    "title": "The Camel and the Eye of a Needle",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 19:24–26; Mark 10:25–27; Luke 18:25–27",
+    "summary": "Reflect on wealth, dependence on God, and Jesus’ striking picture of a camel and a needle.",
+    "pdf": "booklets/the-camel-and-the-eye-of-a-needle.pdf",
+    "image": "images/the-camel-and-the-eye-of-a-needle.jpg"
+  },
+  {
+    "id": "the-door-of-the-sheep",
+    "title": "The Door of the Sheep",
+    "collection": "parables-and-metaphors",
+    "scripture": "John 10:7–9",
+    "summary": "Consider Jesus’ image of the door through which the sheep find safety and pasture.",
+    "pdf": "booklets/the-door-of-the-sheep.pdf",
+    "image": "images/the-door-of-the-sheep.jpg"
+  },
+  {
+    "id": "the-good-shepherd",
+    "title": "The Good Shepherd",
+    "collection": "parables-and-metaphors",
+    "scripture": "John 10:11–18",
+    "summary": "Explore Jesus’ description of the shepherd who knows his sheep and lays down his life for them.",
+    "pdf": "booklets/the-good-shepherd.pdf",
+    "image": "images/the-good-shepherd.jpg"
+  },
+  {
+    "id": "the-harvest",
+    "title": "The Harvest",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 9:37–38; John 4:35–38",
+    "summary": "Explore harvest imagery in Jesus’ call to prayer and participation in God’s work.",
+    "pdf": "booklets/the-harvest.pdf",
+    "image": "images/the-harvest.jpg"
+  },
+  {
+    "id": "the-parable-of-the-cost-of-discipleship",
+    "title": "The Parable of the Cost of Discipleship",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 14:25–33",
+    "summary": "Consider Jesus’ call to count the cost of following him through the illustrations of a builder and a king.",
+    "pdf": "booklets/the-parable-of-the-cost-of-discipleship.pdf",
+    "image": "images/the-parable-of-the-cost-of-discipleship.jpg"
+  },
+  {
+    "id": "the-parable-of-the-good-samaritan",
+    "title": "The Parable of the Good Samaritan",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 10:30–37",
+    "summary": "Discover how compassion becomes action through the Samaritan who stopped to care for a wounded stranger.",
+    "pdf": "booklets/the-parable-of-the-good-samaritan.pdf",
+    "image": "images/the-parable-of-the-good-samaritan.png"
+  },
+  {
+    "id": "the-parable-of-the-great-banquet",
+    "title": "The Parable of the Great Banquet",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 14:15–24",
+    "summary": "Reflect on the invitation to a great banquet and the excuses that keep people from responding.",
+    "pdf": "booklets/the-parable-of-the-great-banquet.pdf",
+    "image": "images/the-parable-of-the-great-banquet.jpg"
+  },
+  {
+    "id": "the-parable-of-the-hidden-treasure",
+    "title": "The Parable of the Hidden Treasure",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 13:44",
+    "summary": "Reflect on the joy of discovering God’s kingdom through the treasure hidden in a field.",
+    "pdf": "booklets/the-parable-of-the-hidden-treasure.pdf",
+    "image": "images/the-parable-of-the-hidden-treasure.jpg"
+  },
+  {
+    "id": "the-parable-of-the-lost-coin",
+    "title": "The Parable of the Lost Coin",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 15:8–10",
+    "summary": "Reflect on the careful search for a lost coin and the joy when it is found.",
+    "pdf": "booklets/the-parable-of-the-lost-coin.pdf",
+    "image": "images/the-parable-of-the-lost-coin.jpg"
+  },
+  {
+    "id": "the-parable-of-the-lost-sheep",
+    "title": "The Parable of the Lost Sheep",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 15:3–7; Matthew 18:12–14",
+    "summary": "Discover the joy of finding the lost sheep and Jesus’ teaching about care and repentance.",
+    "pdf": "booklets/the-parable-of-the-lost-sheep.pdf",
+    "image": "images/the-parable-of-the-lost-sheep.jpg"
+  },
+  {
+    "id": "the-parable-of-the-minas",
+    "title": "The Parable of the Minas",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 19:11–27",
+    "summary": "Consider responsibility and accountability through the servants entrusted with their master’s money.",
+    "pdf": "booklets/the-parable-of-the-minas.pdf",
+    "image": "images/the-parable-of-the-minas.jpg"
+  },
+  {
+    "id": "the-parable-of-the-mustard-seed",
+    "title": "The Parable of the Mustard Seed",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 13:31–32; Mark 4:30–32; Luke 13:18–19",
+    "summary": "Discover encouragement in the contrast between a tiny mustard seed and the large plant it becomes.",
+    "pdf": "booklets/the-parable-of-the-mustard-seed.pdf",
+    "image": "images/the-parable-of-the-mustard-seed.png"
+  },
+  {
+    "id": "the-parable-of-the-net",
+    "title": "The Parable of the Net",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 13:47–50",
+    "summary": "Reflect on Jesus’ illustration of a fishing net and his teaching about judgment at the end of the age.",
+    "pdf": "booklets/the-parable-of-the-net.pdf",
+    "image": "images/the-parable-of-the-net.png"
+  },
+  {
+    "id": "the-parable-of-the-pearl-of-great-value",
+    "title": "The Parable of the Pearl of Great Value",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 13:45–46",
+    "summary": "Consider the surpassing value of God’s kingdom through a merchant’s discovery of a precious pearl.",
+    "pdf": "booklets/the-parable-of-the-pearl-of-great-value.pdf",
+    "image": "images/the-parable-of-the-pearl-of-great-value.png"
+  },
+  {
+    "id": "the-parable-of-the-persistent-widow",
+    "title": "The Parable of the Persistent Widow",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 18:1–8",
+    "summary": "Find encouragement to pray without losing heart through the widow who persisted in seeking justice.",
+    "pdf": "booklets/the-parable-of-the-persistent-widow.pdf",
+    "image": "images/the-parable-of-the-persistent-widow.jpg"
+  },
+  {
+    "id": "the-parable-of-the-pharisee-and-the-tax-collector",
+    "title": "The Parable of the Pharisee and the Tax Collector",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 18:9–14",
+    "summary": "Reflect on humility and mercy through two contrasting prayers in the temple.",
+    "pdf": "booklets/the-parable-of-the-pharisee-and-the-tax-collector.pdf",
+    "image": "images/the-parable-of-the-pharisee-and-the-tax-collector.jpg"
+  },
+  {
+    "id": "the-parable-of-the-prodigal-son",
+    "title": "The Parable of the Prodigal Son",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 15:11–32",
+    "summary": "Explore a father’s welcome, a younger son’s return, and an older brother’s struggle to share the joy.",
+    "pdf": "booklets/the-parable-of-the-prodigal-son.pdf",
+    "image": "images/the-parable-of-the-prodigal-son.jpg"
+  },
+  {
+    "id": "the-parable-of-the-rich-man-and-lazarus",
+    "title": "The Parable of the Rich Man and Lazarus",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 16:19–31",
+    "summary": "Reflect on neglected suffering, a reversal after death, and the call to listen to Scripture.",
+    "pdf": "booklets/the-parable-of-the-rich-man-and-lazarus.pdf",
+    "image": "images/the-parable-of-the-rich-man-and-lazarus.jpg"
+  },
+  {
+    "id": "the-parable-of-the-sower",
+    "title": "The Parable of the Sower",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 13:3–9; Mark 4:3–9; Luke 8:5–8",
+    "summary": "Reflect on the four kinds of soil and how we receive God’s Word.",
+    "pdf": "booklets/the-parable-of-the-sower.pdf",
+    "image": "images/the-parable-of-the-sower.png"
+  },
+  {
+    "id": "the-parable-of-the-two-sons",
+    "title": "The Parable of the Two Sons",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 21:28–32",
+    "summary": "Discover why a changed response and obedient action matter more than an unfulfilled promise.",
+    "pdf": "booklets/the-parable-of-the-two-sons.pdf",
+    "image": "images/the-parable-of-the-two-sons.jpg"
+  },
+  {
+    "id": "the-parable-of-the-unforgiving-servant",
+    "title": "The Parable of the Unforgiving Servant",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 18:23–35",
+    "summary": "Explore the contrast between receiving great mercy and refusing to show mercy to someone else.",
+    "pdf": "booklets/the-parable-of-the-unforgiving-servant.pdf",
+    "image": "images/the-parable-of-the-unforgiving-servant.jpg"
+  },
+  {
+    "id": "the-parable-of-the-unjust-steward",
+    "title": "The Parable of the Unjust Steward",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 16:1–13",
+    "summary": "Consider the dishonest manager’s urgent planning and Jesus’ teaching about faithful stewardship.",
+    "pdf": "booklets/the-parable-of-the-unjust-steward.pdf",
+    "image": "images/the-parable-of-the-unjust-steward.jpg"
+  },
+  {
+    "id": "the-parable-of-the-workers-in-the-vineyard",
+    "title": "The Parable of the Workers in the Vineyard",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 20:1–16",
+    "summary": "Consider generosity, grace, and contentment through the vineyard owner who paid workers hired at different hours.",
+    "pdf": "booklets/the-parable-of-the-workers-in-the-vineyard.pdf",
+    "image": "images/the-parable-of-the-workers-in-the-vineyard.jpg"
+  },
+  {
+    "id": "the-parable-of-the-yeast",
+    "title": "The Parable of the Yeast",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 13:33; Luke 13:20–21",
+    "summary": "Explore Jesus’ illustration of yeast working through dough and reflect on the transforming influence of God’s kingdom.",
+    "pdf": "booklets/the-parable-of-the-yeast.pdf",
+    "image": "images/the-parable-of-the-yeast.png"
+  },
+  {
+    "id": "the-strong-man",
+    "title": "The Strong Man",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 12:29; Mark 3:27; Luke 11:21–22",
+    "summary": "Explore the strong-man illustration in Jesus’ response to accusations about his authority.",
+    "pdf": "booklets/the-strong-man.pdf",
+    "image": "images/the-strong-man.jpg"
+  },
+  {
+    "id": "the-vine-and-the-branches",
+    "title": "The Vine and the Branches",
+    "collection": "parables-and-metaphors",
+    "scripture": "John 15:1–8",
+    "summary": "Reflect on remaining in Christ and bearing fruit through the image of a vine and its branches.",
+    "pdf": "booklets/the-vine-and-the-branches.pdf",
+    "image": "images/the-vine-and-the-branches.jpg"
+  },
+  {
+    "id": "the-way-the-truth-and-the-life",
+    "title": "The Way, the Truth, and the Life",
+    "collection": "parables-and-metaphors",
+    "scripture": "John 14:6",
+    "summary": "Reflect on Jesus’ answer to Thomas and his teaching about coming to the Father.",
+    "pdf": "booklets/the-way-the-truth-and-the-life.pdf",
+    "image": "images/the-way-the-truth-and-the-life.jpg"
+  }
+]
