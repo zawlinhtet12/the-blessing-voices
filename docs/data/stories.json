@@ -1,5 +1,23 @@
 [
   {
+    "id": "city-on-a-hill",
+    "title": "City on a Hill",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 5:14–16",
+    "summary": "Explore the image of a visible city within Jesus’ teaching about light.",
+    "pdf": "booklets/city-on-a-hill.pdf",
+    "image": "images/city-on-a-hill.jpg"
+  },
+  {
+    "id": "cloth-and-wineskins",
+    "title": "Cloth and Wineskins",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 9:16–17; Mark 2:21–22; Luke 5:36–39",
+    "summary": "Consider Jesus’ paired illustrations of a new patch and new wine.",
+    "pdf": "booklets/cloth-and-wineskins.pdf",
+    "image": "images/cloth-and-wineskins.jpg"
+  },
+  {
     "id": "jesus-heals-a-centurions-servant",
     "title": "Jesus Heals a Centurion's Servant",
     "collection": "miracles",
@@ -160,6 +178,60 @@
     "summary": "Read how two blind men called to Jesus for mercy and received their sight.",
     "pdf": "booklets/jesus-heals-two-blind-men.pdf",
     "image": "images/jesus-heals-two-blind-men.jpg"
+  },
+  {
+    "id": "lamp-on-a-stand",
+    "title": "Lamp on a Stand",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 5:15–16; Mark 4:21–25; Luke 8:16–18",
+    "summary": "Reflect on a lamp placed where its light can be useful and on listening carefully to Jesus.",
+    "pdf": "booklets/lamp-on-a-stand.pdf",
+    "image": "images/lamp-on-a-stand.jpg"
+  },
+  {
+    "id": "light-of-the-world",
+    "title": "Light of the World",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 5:14–16",
+    "summary": "Consider how visible good works can direct praise to the Father.",
+    "pdf": "booklets/light-of-the-world.pdf",
+    "image": "images/light-of-the-world.jpg"
+  },
+  {
+    "id": "living-water",
+    "title": "Living Water",
+    "collection": "parables-and-metaphors",
+    "scripture": "John 4:10–14; John 7:37–39",
+    "summary": "Explore Jesus’ promise of living water and John’s explanation of the Spirit.",
+    "pdf": "booklets/living-water.pdf",
+    "image": "images/living-water.jpg"
+  },
+  {
+    "id": "salt-of-the-earth",
+    "title": "Salt of the Earth",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 5:13",
+    "summary": "Reflect on Jesus’ image of salt and the distinctive calling of his disciples.",
+    "pdf": "booklets/salt-of-the-earth.pdf",
+    "image": "images/salt-of-the-earth.jpg"
+  },
+  {
+    "id": "the-blind-leading-the-blind",
+    "title": "The Blind Leading the Blind",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 15:14; Luke 6:39–40",
+    "summary": "Consider Jesus’ warning about unreliable guidance and the need for discernment.",
+    "pdf": "booklets/the-blind-leading-the-blind.pdf",
+    "image": "images/the-blind-leading-the-blind.jpg"
+  },
+  {
+    "id": "the-camel-and-the-eye-of-a-needle",
+    "title": "The Camel and the Eye of a Needle",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 19:24–26; Mark 10:25–27; Luke 18:25–27",
+    "summary": "Reflect on wealth, dependence on God, and Jesus’ striking picture of a camel and a needle.",
+    "pdf": "booklets/the-camel-and-the-eye-of-a-needle.pdf",
+    "image": "images/the-camel-and-the-eye-of-a-needle.jpg"
   },
   {
     "id": "the-parable-of-the-cost-of-discipleship",
@@ -340,5 +412,23 @@
     "summary": "Explore Jesus’ illustration of yeast working through dough and reflect on the transforming influence of God’s kingdom.",
     "pdf": "booklets/the-parable-of-the-yeast.pdf",
     "image": "images/the-parable-of-the-yeast.png"
+  },
+  {
+    "id": "the-strong-man",
+    "title": "The Strong Man",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 12:29; Mark 3:27; Luke 11:21–22",
+    "summary": "Explore the strong-man illustration in Jesus’ response to accusations about his authority.",
+    "pdf": "booklets/the-strong-man.pdf",
+    "image": "images/the-strong-man.jpg"
+  },
+  {
+    "id": "the-vine-and-the-branches",
+    "title": "The Vine and the Branches",
+    "collection": "parables-and-metaphors",
+    "scripture": "John 15:1–8",
+    "summary": "Reflect on remaining in Christ and bearing fruit through the image of a vine and its branches.",
+    "pdf": "booklets/the-vine-and-the-branches.pdf",
+    "image": "images/the-vine-and-the-branches.jpg"
   }
 ]
