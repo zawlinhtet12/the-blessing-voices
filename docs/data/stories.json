@@ -162,6 +162,15 @@
     "image": "images/jesus-heals-two-blind-men.jpg"
   },
   {
+    "id": "the-parable-of-the-cost-of-discipleship",
+    "title": "The Parable of the Cost of Discipleship",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 14:25–33",
+    "summary": "Consider Jesus’ call to count the cost of following him through the illustrations of a builder and a king.",
+    "pdf": "booklets/the-parable-of-the-cost-of-discipleship.pdf",
+    "image": "images/the-parable-of-the-cost-of-discipleship.jpg"
+  },
+  {
     "id": "the-parable-of-the-good-samaritan",
     "title": "The Parable of the Good Samaritan",
     "collection": "parables-and-metaphors",
@@ -171,6 +180,15 @@
     "image": "images/the-parable-of-the-good-samaritan.png"
   },
   {
+    "id": "the-parable-of-the-great-banquet",
+    "title": "The Parable of the Great Banquet",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 14:15–24",
+    "summary": "Reflect on the invitation to a great banquet and the excuses that keep people from responding.",
+    "pdf": "booklets/the-parable-of-the-great-banquet.pdf",
+    "image": "images/the-parable-of-the-great-banquet.jpg"
+  },
+  {
     "id": "the-parable-of-the-hidden-treasure",
     "title": "The Parable of the Hidden Treasure",
     "collection": "parables-and-metaphors",
@@ -178,6 +196,33 @@
     "summary": "Reflect on the joy of discovering God’s kingdom through the treasure hidden in a field.",
     "pdf": "booklets/the-parable-of-the-hidden-treasure.pdf",
     "image": "images/the-parable-of-the-hidden-treasure.jpg"
+  },
+  {
+    "id": "the-parable-of-the-lost-coin",
+    "title": "The Parable of the Lost Coin",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 15:8–10",
+    "summary": "Reflect on the careful search for a lost coin and the joy when it is found.",
+    "pdf": "booklets/the-parable-of-the-lost-coin.pdf",
+    "image": "images/the-parable-of-the-lost-coin.jpg"
+  },
+  {
+    "id": "the-parable-of-the-lost-sheep",
+    "title": "The Parable of the Lost Sheep",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 15:3–7; Matthew 18:12–14",
+    "summary": "Discover the joy of finding the lost sheep and Jesus’ teaching about care and repentance.",
+    "pdf": "booklets/the-parable-of-the-lost-sheep.pdf",
+    "image": "images/the-parable-of-the-lost-sheep.jpg"
+  },
+  {
+    "id": "the-parable-of-the-minas",
+    "title": "The Parable of the Minas",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 19:11–27",
+    "summary": "Consider responsibility and accountability through the servants entrusted with their master’s money.",
+    "pdf": "booklets/the-parable-of-the-minas.pdf",
+    "image": "images/the-parable-of-the-minas.jpg"
   },
   {
     "id": "the-parable-of-the-mustard-seed",
@@ -207,6 +252,42 @@
     "image": "images/the-parable-of-the-pearl-of-great-value.png"
   },
   {
+    "id": "the-parable-of-the-persistent-widow",
+    "title": "The Parable of the Persistent Widow",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 18:1–8",
+    "summary": "Find encouragement to pray without losing heart through the widow who persisted in seeking justice.",
+    "pdf": "booklets/the-parable-of-the-persistent-widow.pdf",
+    "image": "images/the-parable-of-the-persistent-widow.jpg"
+  },
+  {
+    "id": "the-parable-of-the-pharisee-and-the-tax-collector",
+    "title": "The Parable of the Pharisee and the Tax Collector",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 18:9–14",
+    "summary": "Reflect on humility and mercy through two contrasting prayers in the temple.",
+    "pdf": "booklets/the-parable-of-the-pharisee-and-the-tax-collector.pdf",
+    "image": "images/the-parable-of-the-pharisee-and-the-tax-collector.jpg"
+  },
+  {
+    "id": "the-parable-of-the-prodigal-son",
+    "title": "The Parable of the Prodigal Son",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 15:11–32",
+    "summary": "Explore a father’s welcome, a younger son’s return, and an older brother’s struggle to share the joy.",
+    "pdf": "booklets/the-parable-of-the-prodigal-son.pdf",
+    "image": "images/the-parable-of-the-prodigal-son.jpg"
+  },
+  {
+    "id": "the-parable-of-the-rich-man-and-lazarus",
+    "title": "The Parable of the Rich Man and Lazarus",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 16:19–31",
+    "summary": "Reflect on neglected suffering, a reversal after death, and the call to listen to Scripture.",
+    "pdf": "booklets/the-parable-of-the-rich-man-and-lazarus.pdf",
+    "image": "images/the-parable-of-the-rich-man-and-lazarus.jpg"
+  },
+  {
     "id": "the-parable-of-the-sower",
     "title": "The Parable of the Sower",
     "collection": "parables-and-metaphors",
@@ -232,6 +313,15 @@
     "summary": "Explore the contrast between receiving great mercy and refusing to show mercy to someone else.",
     "pdf": "booklets/the-parable-of-the-unforgiving-servant.pdf",
     "image": "images/the-parable-of-the-unforgiving-servant.jpg"
+  },
+  {
+    "id": "the-parable-of-the-unjust-steward",
+    "title": "The Parable of the Unjust Steward",
+    "collection": "parables-and-metaphors",
+    "scripture": "Luke 16:1–13",
+    "summary": "Consider the dishonest manager’s urgent planning and Jesus’ teaching about faithful stewardship.",
+    "pdf": "booklets/the-parable-of-the-unjust-steward.pdf",
+    "image": "images/the-parable-of-the-unjust-steward.jpg"
   },
   {
     "id": "the-parable-of-the-workers-in-the-vineyard",
