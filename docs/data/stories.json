@@ -1,5 +1,41 @@
 [
   {
+    "id": "a-mirror-james",
+    "title": "A Mirror (James)",
+    "collection": "parables-and-metaphors",
+    "scripture": "James 1:23–25",
+    "summary": "Reflect on the difference between hearing God’s Word and putting it into practice.",
+    "pdf": "booklets/a-mirror-james.pdf",
+    "image": "images/a-mirror-james.jpg"
+  },
+  {
+    "id": "a-race-paul",
+    "title": "A Race (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "1 Corinthians 9:24–27",
+    "summary": "Reflect on disciplined effort and purposeful perseverance through Paul’s athletic imagery.",
+    "pdf": "booklets/a-race-paul.pdf",
+    "image": "images/a-race-paul.png"
+  },
+  {
+    "id": "a-raging-fire-james",
+    "title": "A Raging Fire (James)",
+    "collection": "parables-and-metaphors",
+    "scripture": "James 3:5–6",
+    "summary": "Consider the far-reaching effects of speech through James’ image of a small fire.",
+    "pdf": "booklets/a-raging-fire-james.pdf",
+    "image": "images/a-raging-fire-james.jpg"
+  },
+  {
+    "id": "athlete-soldier-farmer-paul",
+    "title": "Athlete, Soldier, Farmer (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "2 Timothy 2:3–6",
+    "summary": "Consider focused service, disciplined effort, and patient labour through three illustrations.",
+    "pdf": "booklets/athlete-soldier-farmer-paul.pdf",
+    "image": "images/athlete-soldier-farmer-paul.jpg"
+  },
+  {
     "id": "city-on-a-hill",
     "title": "City on a Hill",
     "collection": "parables-and-metaphors",
@@ -16,6 +52,24 @@
     "summary": "Consider Jesus’ paired illustrations of a new patch and new wine.",
     "pdf": "booklets/cloth-and-wineskins.pdf",
     "image": "images/cloth-and-wineskins.jpg"
+  },
+  {
+    "id": "fruit-of-the-spirit-paul",
+    "title": "Fruit of the Spirit (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "Galatians 5:22–23",
+    "summary": "Reflect on the character of a life shaped by the Spirit.",
+    "pdf": "booklets/fruit-of-the-spirit-paul.pdf",
+    "image": "images/fruit-of-the-spirit-paul.jpg"
+  },
+  {
+    "id": "jesus-as-the-cornerstone-peter",
+    "title": "Jesus as the Cornerstone (Peter)",
+    "collection": "parables-and-metaphors",
+    "scripture": "1 Peter 2:6–8",
+    "summary": "Consider the cornerstone image and the call to trust Christ.",
+    "pdf": "booklets/jesus-as-the-cornerstone-peter.pdf",
+    "image": "images/jesus-as-the-cornerstone-peter.jpg"
   },
   {
     "id": "jesus-heals-a-centurions-servant",
@@ -198,6 +252,15 @@
     "image": "images/light-of-the-world.jpg"
   },
   {
+    "id": "living-stones-peter",
+    "title": "Living Stones (Peter)",
+    "collection": "parables-and-metaphors",
+    "scripture": "1 Peter 2:4–5",
+    "summary": "Explore the image of believers being built together into a spiritual house.",
+    "pdf": "booklets/living-stones-peter.pdf",
+    "image": "images/living-stones-peter.jpg"
+  },
+  {
     "id": "living-water",
     "title": "Living Water",
     "collection": "parables-and-metaphors",
@@ -205,6 +268,15 @@
     "summary": "Explore Jesus’ promise of living water and John’s explanation of the Spirit.",
     "pdf": "booklets/living-water.pdf",
     "image": "images/living-water.jpg"
+  },
+  {
+    "id": "milk-and-solid-food-paul",
+    "title": "Milk and Solid Food (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "1 Corinthians 3:1–3; Hebrews 5:12–14",
+    "summary": "Reflect on spiritual growth through the comparison between milk and solid food.",
+    "pdf": "booklets/milk-and-solid-food-paul.pdf",
+    "image": "images/milk-and-solid-food-paul.jpg"
   },
   {
     "id": "salt-of-the-earth",
@@ -216,6 +288,15 @@
     "image": "images/salt-of-the-earth.jpg"
   },
   {
+    "id": "the-armor-of-god-paul",
+    "title": "The Armor of God (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "Ephesians 6:10–18",
+    "summary": "Consider the armour imagery of truth, righteousness, faith, salvation, God’s word, and prayer.",
+    "pdf": "booklets/the-armor-of-god-paul.pdf",
+    "image": "images/the-armor-of-god-paul.jpg"
+  },
+  {
     "id": "the-blind-leading-the-blind",
     "title": "The Blind Leading the Blind",
     "collection": "parables-and-metaphors",
@@ -225,6 +306,33 @@
     "image": "images/the-blind-leading-the-blind.jpg"
   },
   {
+    "id": "the-body-and-the-bread-paul",
+    "title": "The Body and the Bread (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "1 Corinthians 10:16–17; 11:23–26",
+    "summary": "Reflect on shared bread, participation in Christ, and remembrance at the Lord’s Supper.",
+    "pdf": "booklets/the-body-and-the-bread-paul.pdf",
+    "image": "images/the-body-and-the-bread-paul.jpg"
+  },
+  {
+    "id": "the-body-of-christ-paul",
+    "title": "The Body of Christ (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "1 Corinthians 12:12–27",
+    "summary": "Reflect on unity, differing gifts, and mutual care through Paul’s image of one body with many parts.",
+    "pdf": "booklets/the-body-of-christ-paul.pdf",
+    "image": "images/the-body-of-christ-paul.jpg"
+  },
+  {
+    "id": "the-bread-of-life",
+    "title": "The Bread of Life",
+    "collection": "parables-and-metaphors",
+    "scripture": "John 6:35",
+    "summary": "Reflect on Jesus’ declaration that he is the bread of life and his invitation to come and believe.",
+    "pdf": "booklets/the-bread-of-life.pdf",
+    "image": "images/the-bread-of-life.jpg"
+  },
+  {
     "id": "the-camel-and-the-eye-of-a-needle",
     "title": "The Camel and the Eye of a Needle",
     "collection": "parables-and-metaphors",
@@ -232,6 +340,42 @@
     "summary": "Reflect on wealth, dependence on God, and Jesus’ striking picture of a camel and a needle.",
     "pdf": "booklets/the-camel-and-the-eye-of-a-needle.pdf",
     "image": "images/the-camel-and-the-eye-of-a-needle.jpg"
+  },
+  {
+    "id": "the-door-of-the-sheep",
+    "title": "The Door of the Sheep",
+    "collection": "parables-and-metaphors",
+    "scripture": "John 10:7–9",
+    "summary": "Consider Jesus’ image of the door through which the sheep find safety and pasture.",
+    "pdf": "booklets/the-door-of-the-sheep.pdf",
+    "image": "images/the-door-of-the-sheep.jpg"
+  },
+  {
+    "id": "the-good-shepherd",
+    "title": "The Good Shepherd",
+    "collection": "parables-and-metaphors",
+    "scripture": "John 10:11–18",
+    "summary": "Explore Jesus’ description of the shepherd who knows his sheep and lays down his life for them.",
+    "pdf": "booklets/the-good-shepherd.pdf",
+    "image": "images/the-good-shepherd.jpg"
+  },
+  {
+    "id": "the-harvest",
+    "title": "The Harvest",
+    "collection": "parables-and-metaphors",
+    "scripture": "Matthew 9:37–38; John 4:35–38",
+    "summary": "Explore harvest imagery in Jesus’ call to prayer and participation in God’s work.",
+    "pdf": "booklets/the-harvest.pdf",
+    "image": "images/the-harvest.jpg"
+  },
+  {
+    "id": "the-light-in-darkness-john",
+    "title": "The Light in Darkness (John)",
+    "collection": "parables-and-metaphors",
+    "scripture": "John 1:4–5; 1 John 1:5–7",
+    "summary": "Explore the imagery of light, life, and truthful fellowship in John’s writings.",
+    "pdf": "booklets/the-light-in-darkness-john.pdf",
+    "image": "images/the-light-in-darkness-john.jpg"
   },
   {
     "id": "the-parable-of-the-cost-of-discipleship",
@@ -414,6 +558,15 @@
     "image": "images/the-parable-of-the-yeast.png"
   },
   {
+    "id": "the-sower-paul",
+    "title": "The Sower (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "Galatians 6:7–9",
+    "summary": "Explore sowing and reaping as an image of choices, perseverance, and life in the Spirit.",
+    "pdf": "booklets/the-sower-paul.pdf",
+    "image": "images/the-sower-paul.jpg"
+  },
+  {
     "id": "the-strong-man",
     "title": "The Strong Man",
     "collection": "parables-and-metaphors",
@@ -423,6 +576,15 @@
     "image": "images/the-strong-man.jpg"
   },
   {
+    "id": "the-temple-of-the-holy-spirit-paul",
+    "title": "The Temple of the Holy Spirit (Paul)",
+    "collection": "parables-and-metaphors",
+    "scripture": "1 Corinthians 6:19–20",
+    "summary": "Consider Paul’s teaching about the body, belonging to God, and honouring him.",
+    "pdf": "booklets/the-temple-of-the-holy-spirit-paul.pdf",
+    "image": "images/the-temple-of-the-holy-spirit-paul.jpg"
+  },
+  {
     "id": "the-vine-and-the-branches",
     "title": "The Vine and the Branches",
     "collection": "parables-and-metaphors",
@@ -430,5 +592,14 @@
     "summary": "Reflect on remaining in Christ and bearing fruit through the image of a vine and its branches.",
     "pdf": "booklets/the-vine-and-the-branches.pdf",
     "image": "images/the-vine-and-the-branches.jpg"
+  },
+  {
+    "id": "the-way-the-truth-and-the-life",
+    "title": "The Way, the Truth, and the Life",
+    "collection": "parables-and-metaphors",
+    "scripture": "John 14:6",
+    "summary": "Reflect on Jesus’ answer to Thomas and his teaching about coming to the Father.",
+    "pdf": "booklets/the-way-the-truth-and-the-life.pdf",
+    "image": "images/the-way-the-truth-and-the-life.jpg"
   }
 ]
